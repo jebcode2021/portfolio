@@ -9,16 +9,16 @@ export const Descricao = styled(P)`
 export const BotaoTema = styled.button`
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
+  color: ${(props) => props.theme.corFundo};
   font-size: 10px;
   font-weight: bold;
-  background-color: #282a35;
-  border: 1px solid #282a35;
+  background-color: ${(props) => props.theme.corDeFundoBotao2};
+  border: 1px solid: ${(props) => props.theme.corDeFundoBotao2};
   cursor: pointer;
 
   &:hover {
-    background-color: #fff;
-    color: #282a35;
+    background-color: ${(props) => props.theme.corDeFundoBotaoHover2};
+    color: ${(props) => props.theme.corDaBorda};
   }
 `
 
@@ -28,9 +28,10 @@ export const SidebarConatiner = styled.div`
   align-items: center;
   width: 300px;
   padding: 24px;
-  background-color: #fff;
+  background-color: ${(props) => props.theme.corFundo};
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px ${(props) => props.theme.corDeFundoBoxShadow};
+  border: 1px solid ${(props) => props.theme.corDaBorda};
   position: sticky;
   top: 80px;
   left: 0;
