@@ -1,0 +1,24 @@
+npm init vite@latest
+
+npm run dev
+
+REACT -> React Dom -> Frontend na Web
+REACT -> React Native -> Frontend no Mobile
+
+npx create-react-app portfolio --template typescript
+
+npm start
+
+npx eslint --init
+
+npm install --save-dev eslint-plugin-react-hooks
+
+npx eslint .
+
+npm install --save-dev eslint-plugin-prettier eslint-config-prettier
+
+npm install --save-dev --save-exact prettier
+
+npx prettier --write .\src\
+
+npm install --save styled-components 
