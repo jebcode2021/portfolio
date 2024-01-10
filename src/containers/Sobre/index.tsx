@@ -27,7 +27,7 @@ const Sobre = (pros: Props) => {
       <GithubSecao>
         <Titulo fontSize={16}>Github Stats</Titulo>
         <img
-          src={`https://github-readme-stats.vercel.app/api?username=${pros.nomeUsuario}&show_icons=true&theme=${pros.corGithubStats}&include_all_commits=true&count_private=true&border_radius=20px&icon_color=${pros.corIcone}&border_color=${pros.corIcone}&title_color=${pros.corIcone}`}
+          src={`https://github-readme-stats.vercel.app/api?username=${pros.nomeUsuario}&show_icons=true&theme=${pros.corGithubStats}&include_all_commits=true&border_radius=20px&icon_color=${pros.corIcone}&border_color=${pros.corIcone}&title_color=${pros.corIcone}`}
         />
         <img
           src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${pros.nomeUsuario}&theme=${pros.corGithubStats}&border_radius=20px&title_color=${pros.corIcone}&border_color=${pros.corIcone}&layout=compact&langs_count=7`}
