@@ -39,6 +39,25 @@ export const SidebarConatiner = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 0;
-    margin-bottom: 24px;
+    width: 100%;
+    top: -8px;
+    display: flex;
+    position: relative;
+  }
+
+  .followers-following {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: -24px;
+    padding: 0 24px;
+
+    @media (max-width: 768px) {
+      padding: 0 24px;
+      margin-top: -24px;
+      margin-bottom: -20px;
+    }
   }
 `

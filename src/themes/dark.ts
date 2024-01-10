@@ -8,7 +8,12 @@ const temaDark = {
   corDeFundoBotaoHover2: '#282a35',
   corDaBorda: '#fff',
   corTexto: '#fff',
-  corDeFundoBoxShadow: 'rgba(0, 0, 0, 0.2)'
+  corDeFundoBoxShadow: 'rgba(0, 0, 0, 0.2)',
+  corGithubStats: 'dracula',
+  corGithubStatsDiv: '1px solid #fff',
+  webkitScrollbarThumb: '#fff',
+  webkitScrollbarTrack: '#282a35',
+  corIcone: 'fff'
 }
 
 export default temaDark
@@ -24,4 +29,9 @@ export type Theme = {
   corDaBorda: string
   corTexto: string
   corDeFundoBoxShadow: string
+  corGithubStats: string
+  corGithubStatsDiv: string
+  webkitScrollbarThumb: string
+  webkitScrollbarTrack: string
+  corIcone: string
 }

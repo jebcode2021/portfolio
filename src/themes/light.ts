@@ -8,7 +8,12 @@ const temaLight = {
   corDeFundoBotaoHover2: '#fff',
   corDaBorda: '#282a35',
   corTexto: '#fff',
-  corDeFundoBoxShadow: 'rgba(0, 0, 0, 0.2)'
+  corDeFundoBoxShadow: 'rgba(0, 0, 0, 0.2)',
+  corGithubStats: 'default',
+  corGithubStatsDiv: '1px solid #282a35',
+  webkitScrollbarThumb: '#282a35',
+  webkitScrollbarTrack: '#fff',
+  corIcone: '282a35'
 }
 
 export default temaLight
@@ -24,4 +29,9 @@ export type Theme = {
   corDaBorda: string
   corTexto: string
   corDeFundoBoxShadow: string
+  corGithubStats: string
+  corGithubStatsDiv: string
+  webkitScrollbarThumb: string
+  webkitScrollbarTrack: string
+  corIcone: string
 }

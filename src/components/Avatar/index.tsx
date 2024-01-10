@@ -1,5 +1,11 @@
 import { FotoPerfil } from './styles'
 
-const Avatar = () => <FotoPerfil src="https://github.com/jebcode2021.png" />
+type ProjetosProps = {
+  nomeUsuario?: string
+}
+
+const Avatar = ({ nomeUsuario }: ProjetosProps) => {
+  return <FotoPerfil src={`https://github.com/${nomeUsuario}.png`} />
+}
 
 export default Avatar
